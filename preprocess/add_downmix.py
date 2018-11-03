@@ -1,7 +1,7 @@
 # Author: jerry Peng 2018
 
 
-# Some audio in AP17-olr are stereo. And among them, most contains silence in the right channel.
+# Some audio in AP17-olr are stereo. And among them, most contains silence in the left channel.
 # This script reads in an kaldi scp file and assumes the second field in each line is path2fname.
 # It revised the second field and output the revised content to stdout.
 
